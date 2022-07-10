@@ -34,9 +34,16 @@ footer {
     clear: both;
 }
 
-.social {
-    display: flex;
-    justify-content: flex-start;
+.skill {
+    display: block;
+    width: 10%;
+    min-width: 200px;
+    min-height: 15rem;
+    margin: 10px 10px 10px auto;
+    padding: 20px;
+    float: left;
+    border: 2px solid #424040;
+    border-radius: 10px;
 }
 
 .social-button {
@@ -53,18 +60,22 @@ footer {
 
 .github {
     background-color: #333;
+    border: 2px solid #333;
 }
 
 .twitter {
     background-color: #1DA1F2;
+    border: 2px solid #1DA1F2;
 }
 
 .youtube {
     background-color: #FF0000;
+    border: 2px solid #FF0000;
 }
 
 .instagram {
     background-color: #8D44C1;
+    border: 2px solid #8D44C1;
 }
 
 .gray {
